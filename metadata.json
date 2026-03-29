@@ -1,0 +1,5 @@
+{
+  "name": "Resume Reviewer",
+  "description": "An intelligent resume reviewer that analyses resumes against job descriptions using the XYZ formula, providing actionable feedback for both recruiters and engineering managers.",
+  "requestFramePermissions": []
+}

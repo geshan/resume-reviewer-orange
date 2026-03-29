@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #ff6b00;
+  --color-brand-orange-light: #ff8533;
+  --color-brand-orange-dark: #cc5600;
+}
+
+:root {
+  --background: #fffaf5;
+  --foreground: #2d2d2d;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
